@@ -1,0 +1,63 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+body {
+    background-color: #bed6dd;
+}
+
+.header {
+    text-align: center;
+}
+
+.goBackButton {
+    margin-left: 70vw;
+    padding: 5px;
+}
+
+.searchMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    column-gap: 20px;
+}
+
+.searchBar {
+    width: 400px;
+    font-size: 20px;
+}
+
+.searchButton {
+    height: 30px;
+}
+
+#pokemonList {
+    font-size: 20px;
+}
+
+#pokemonList > div {
+    width: auto;
+    min-width: fit-content;
+}
+
+.pokemonPlaceholder {
+    border: 2px solid black;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pokemonName,
+.pokemonNumber {
+    margin-left: 20px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+.pokemonMenu {
+    font-size: 30px;
+}
